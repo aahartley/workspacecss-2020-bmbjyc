@@ -17,13 +17,39 @@
 	/* ---------------------------------------------------------------------------------------------------------- 
 	01 Color ----------------------------------------------------------------------------------------
 	---------------------------------------------------------------------------------------------------------- */
+html{
+  background-color:hsla(320, 70%, 72%, 0.5);
+  padding:5%;
+}
+body{
+  background-color: hsl(320, 84%, 66%,0.7);
+  color: hsla(100,10%,10%,0.9)
+}
+header h1{
+  background-color:hsla(346,94%,36%);
+}
+div.preamble, div.requirements, div.benefits{
+  color:rgb(158, 24, 199);
+  background-color: hsla(183,94%,36%,0.9);
+}
+footer{
 
+}
+div.participation{
+
+}
+aside.sidebar{
+  background-color: hsla(183,94%,36%,0.9);
+}
 
 
 
 
 /** 02 Typography -- Font  **/
-
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+div.summary{
+  font-family: 'Abel', sans-serif;
+}
 
 
 /** 03 Position, Size, layout **/
