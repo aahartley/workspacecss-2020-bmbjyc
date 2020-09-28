@@ -59,7 +59,7 @@ a{
 
 }
 h1{
-  text-indent: -999px;
+  text-indent: 9px;
 }
 
 
@@ -144,6 +144,22 @@ footer{
 }
 #zen-resources a{
   border:0px;
+}
+a:hover{
+  border: 5px solid brown;
+}
+p{
+  visibility: hidden;
+}
+h3:hover ~p{
+  visibility: visible;
+}
+p::first-letter{
+  font-size:300%;
+  
+}
+p:nth-child(2n+1){
+  background-color: hsla(320, 70%, 72%, 0.5);
 }
 
 
