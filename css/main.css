@@ -127,6 +127,24 @@ footer{
   width: 50%;
   margin: 10em auto;
 }
+#zen-resources {
+  position: fixed;
+  top:0px;
+  left: 0px;
+  right: 0px;
+  background-color: white;
+}
+#zen-resources h3{
+  display:none;
+}
+#zen-resources ul li{
+  display:inline-block;
+  padding: 3%;
+  background-color: hsla(183,94%,36%,0.9);
+}
+#zen-resources a{
+  border:0px;
+}
 
 
 
